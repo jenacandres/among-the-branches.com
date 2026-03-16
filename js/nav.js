@@ -1,5 +1,5 @@
 /* ============================================================
-   BLOOM HOLLOW FARM — NAVIGATION
+   Among The Branches — NAVIGATION
    Handles active link highlighting.
    Each page is a separate HTML file — no JS routing needed.
    ============================================================ */

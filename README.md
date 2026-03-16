@@ -1,4 +1,4 @@
-# Bloom Hollow Farm — Website Template
+# Among The Branches — Website Template
 
 A multi-page static HTML website template for a specialty cut flower farm.
 Inspired by the aesthetic of June Farm (junefarmvt.com).
@@ -44,7 +44,7 @@ All visual tokens are in one place. Change a value once and it updates everywher
 
 ### 2. Farm Name & Contact
 
-Search-and-replace `Bloom Hollow Farm` and `bloomhollowfarm.com` across all HTML files.
+Search-and-replace `Among The Branches` and `bloomhollowfarm.com` across all HTML files.
 
 ### 3. Hero Images
 
