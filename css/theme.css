@@ -1,0 +1,108 @@
+/* ============================================================
+   BLOOM HOLLOW FARM — THEME VARIABLES
+   ============================================================
+   Edit this file to retheme the entire site at once.
+   All colors, fonts, spacing, and sizing live here.
+   ============================================================ */
+
+:root {
+
+  /* ── COLORS ─────────────────────────────────────────────── */
+
+  /* Backgrounds */
+  --color-bg:           #fdfaf6;   /* warm white — main page background */
+  --color-bg-subtle:    #f7f3ee;   /* cream — section alternates, cards */
+  --color-bg-dark:      #2a2218;   /* deep brown — footer, dark sections */
+  --color-bg-hero:      #2a1f14;   /* near-black — behind hero images */
+
+  /* Text */
+  --color-text:         #3d3529;   /* main body text */
+  --color-text-muted:   #8a7e72;   /* secondary / supporting text */
+  --color-text-light:   #ffffff;   /* text on dark backgrounds */
+
+  /* Brand accents */
+  --color-primary:      #b87b5a;   /* clay/terracotta — primary CTA, prices, links */
+  --color-primary-dark: #a3633d;   /* clay hover state */
+  --color-secondary:    #7a8c72;   /* sage green — ticker bar, accents */
+  --color-accent:       #c94f2e;   /* warm red — highlight accent (optional) */
+
+  /* Borders & dividers */
+  --color-border:       #ddd5c8;   /* soft warm border */
+
+
+  /* ── TYPOGRAPHY ─────────────────────────────────────────── */
+
+  /* Google Fonts: loaded in each HTML <head> */
+  --font-display:       'Cormorant Garamond', Georgia, serif;  /* headlines, hero, logo */
+  --font-body:          'Jost', 'Helvetica Neue', sans-serif;  /* body, nav, buttons */
+
+  --font-weight-light:  300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+
+
+  /* ── SPACING ────────────────────────────────────────────── */
+
+  --space-xs:   0.5rem;
+  --space-sm:   1rem;
+  --space-md:   2rem;
+  --space-lg:   3rem;
+  --space-xl:   5rem;
+
+  --section-padding-v:  5rem;   /* vertical padding for full sections */
+  --section-padding-sm: 3rem;   /* smaller section variant */
+  --page-padding-h:     3rem;   /* horizontal page gutter */
+  --container-max:      1100px; /* max content width */
+
+
+  /* ── NAV ────────────────────────────────────────────────── */
+
+  --nav-height:         72px;
+  --nav-bg:             rgba(253, 250, 246, 0.92);  /* semi-transparent bg */
+  --nav-border:         var(--color-border);
+
+
+  /* ── TYPOGRAPHY SIZES ───────────────────────────────────── */
+
+  --text-label:         0.65rem;  /* eyebrow / all-caps labels */
+  --text-xs:            0.7rem;
+  --text-sm:            0.8rem;
+  --text-base:          0.9rem;
+  --text-body:          1rem;
+  --text-lg:            1.2rem;
+  --text-xl:            1.5rem;
+  --text-2xl:           2rem;
+  --text-3xl:           2.8rem;
+
+
+  /* ── LETTER SPACING ─────────────────────────────────────── */
+
+  --tracking-tight:     0.03em;
+  --tracking-normal:    0.08em;
+  --tracking-wide:      0.12em;
+  --tracking-widest:    0.2em;
+
+
+  /* ── BORDERS & RADIUS ───────────────────────────────────── */
+
+  --radius-none:        0;       /* this design uses sharp corners throughout */
+  --border-width:       1px;
+
+
+  /* ── TRANSITIONS ────────────────────────────────────────── */
+
+  --transition-fast:    0.2s ease;
+  --transition-base:    0.3s ease;
+  --transition-slow:    0.5s ease;
+
+
+  /* ── HERO IMAGES (swap these URLs to change hero photos) ── */
+
+  --hero-home:      url('https://images.unsplash.com/photo-1490750967868-88df5691cc05?w=1600');
+  --hero-about:     url('https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=1600');
+  --hero-wholesale: url('https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?w=1600');
+  --hero-csa:       url('https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=1600');
+  --hero-weddings:  url('https://images.unsplash.com/photo-1523438885200-e635ba2c371e?w=1600');
+  --hero-shop:      url('https://images.unsplash.com/photo-1457296898342-cdd24585d095?w=1600');
+
+}
