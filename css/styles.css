@@ -147,7 +147,11 @@ nav {
   text-align: center;
   color: var(--color-text-light);
   padding: var(--space-md);
-  animation: fadeup 1.2s ease forwards;
+  animation: fadeup 2s ease forwards;
+  background-color: rgba(0 0 0 / 30%);
+  /* background-color: --var(--color-bg-home-hero); */
+  border-radius: 25px;
+  box-shadow: 0 0 10px 15px rgba(0 0 0 / 30%);
 }
 
 @keyframes fadeup {

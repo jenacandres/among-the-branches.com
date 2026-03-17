@@ -14,6 +14,7 @@
   --color-bg-subtle:    #f7f3ee;   /* cream — section alternates, cards */
   --color-bg-dark:      #2a2218;   /* deep brown — footer, dark sections */
   --color-bg-hero:      #2a1f14;   /* near-black — behind hero images */
+  --color-bg-home-hero: rgba(0 0 0 / 30%);  /* semi-transparent overlay for home hero */
 
   /* Text */
   --color-text:         #3d3529;   /* main body text */
