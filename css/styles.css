@@ -197,7 +197,8 @@ nav {
 .ticker-track {
   display: flex;
   gap: 3rem;
-  animation: scroll-ticker 20s linear infinite;
+  animation: scroll-ticker 18s linear infinite;
+  /* animation: scroll-ticker 2s linear infinite; */
   white-space: nowrap;
 }
 
